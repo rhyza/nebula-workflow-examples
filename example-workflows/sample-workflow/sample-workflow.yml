@@ -42,7 +42,7 @@ steps:
       - sleep 3
     dependsOn:
       - Step 4 - Deploy application bits to Stage 
-  - name: Step 6 - Adjust traffic throttle by 10%
+  - name: Step 6 - Adjust traffic throttle by 10% OK
     description: ""
     image: alpine:latest
     input:
